@@ -21,7 +21,7 @@ A modern dashboard application built with React, Vite, and Tailwind CSS.
 ### Installation
 1. Clone the repository:
 	 ```sh
-	 git clone <your-repo-url>
+	 git clone https://github.com/omkar-here/juspay-dashboard.git
 	 cd dashboard-new
 	 ```
 2. Install dependencies:
