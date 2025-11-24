@@ -1,5 +1,8 @@
 
-# Dashboard New
+## Juspay UI Assignment
+
+# Find video recording here - https://youtu.be/OJXnyxYqA1U
+# Hosted link - https://juspay-assignment-omkar-dashboard.netlify.app/
 
 A modern dashboard application built with React, Vite, and Tailwind CSS.
 
@@ -29,16 +32,11 @@ A modern dashboard application built with React, Vite, and Tailwind CSS.
 	 ```sh
 	 npm run dev
 	 ```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+4. Open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ### Build for Production
 ```sh
 npm run build
-```
-
-### Linting
-```sh
-npm run lint
 ```
 
 ## Project Structure
@@ -64,7 +62,7 @@ npm run lint
 ## Component Documentation
 
 ### NavLink.jsx
-Custom navigation link using React Router. Accepts `to`, `className`, `activeClassName`, and `pendingClassName` props for styling based on route state.
+Custom navigation link using React Router. Accepts `to`, `className`, `activeClassName" props for styling based on route state.
 
 ### ThemeToggle.jsx
 Theme switcher using `next-themes`. Toggles between light and dark modes.
@@ -81,49 +79,5 @@ Paginated, searchable, and filterable order table. Uses sample data and supports
 ### Utility Functions
 `lib/utils.js` provides a `cn` function for merging Tailwind classes.
 
-## Deployment
 
-You can deploy this app on Vercel, Netlify, or GitHub Pages. Example (Netlify):
 
-1. Push your code to GitHub.
-2. Go to [Netlify](https://netlify.com/) and connect your repository.
-3. Set build command to `npm run build` and publish directory to `dist`.
-4. Deploy and copy your live site URL here:
-
-**Demo:** [https://your-demo-url.netlify.app](https://your-demo-url.netlify.app)
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-MIT
-
-A modern dashboard application built with React, Vite, and Tailwind CSS.
-
-## Features
-- Interactive revenue map
-- Theme toggle (light/dark)
-- Responsive navigation
-- Order list and notifications
-
-## Getting Started
-1. Install dependencies:
-	```sh
-	npm install
-	```
-2. Start development server:
-	```sh
-	npm run dev
-	```
-
-## Project Structure
-- `src/` - Source code
-- `public/` - Static assets
-- `components.json` - Component registry
-- `tailwind.config.js` - Tailwind CSS config
-- `postcss.config.js` - PostCSS config
-
-## License
-MIT
-- Navigate to the desired file(s).
