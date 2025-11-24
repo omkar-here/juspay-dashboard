@@ -6,7 +6,7 @@ export default function Notifications({ desktopNotifOpen, mobileNotifOpen, setMo
     <>
       {/* Right Sidebar (desktop) - shown only when open */}
       {desktopNotifOpen && (
-        <div className="hidden lg:flex flex-col w-80 px-6 py-6 border-l flex-shrink-0 border-border overflow-y-auto bg-background space-y-8 transition-all duration-300">
+        <div className="hidden lg:flex flex-col w-80 px-6 py-6 border-l border-border overflow-y-auto bg-background space-y-8 transition-all duration-300">
           {/* Notifications */}
           <div>
             <h3 className="text-sm font-semibold text-foreground mb-4">Notifications</h3>

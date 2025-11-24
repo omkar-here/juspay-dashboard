@@ -12,7 +12,7 @@ export default function Main({
   locations,
 }) {
   return (
-    <div className="flex-1 overflow-y-auto transition-all duration-300 ">
+    <div className="overflow-y-auto transition-all duration-300 w-full flex-shrink-0">
 
       {/* Dashboard Content */}
       <div className="p-4 sm:p-6 md:p-8 space-y-6">

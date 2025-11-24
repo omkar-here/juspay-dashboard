@@ -31,7 +31,7 @@ const SubMenuItem = ({ label }) => (
 export default function Sidebar({ sidebarOpen, setSidebarOpen, expandedMenu, setExpandedMenu, activeTab, setActiveTab, dashboardView, setDashboardView }) {
   return (
     <div
-      className={`absolute md:static flex-shrink-0 inset-y-0 left-0 z-40 w-64 border-r border-border flex flex-col bg-background transform transition-transform duration-300
+      className={`absolute md:static inset-y-0 left-0 z-40 w-64 border-r border-border flex flex-col bg-background transform transition-transform duration-300
         ${sidebarOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 md:block`}
     >
       {/* Close button for mobile */}
