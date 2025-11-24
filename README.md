@@ -1,8 +1,8 @@
 
-## Juspay UI Assignment
+# Juspay UI Assignment
 
-# Find video recording here - https://youtu.be/OJXnyxYqA1U
-# Hosted link - https://juspay-assignment-omkar-dashboard.netlify.app/
+## Find video recording here - https://youtu.be/OJXnyxYqA1U
+## Hosted link - https://juspay-assignment-omkar-dashboard.netlify.app/
 
 A modern dashboard application built with React, Vite, and Tailwind CSS.
 
